@@ -16,7 +16,7 @@ public class HeroAdapter extends BaseAdapter {
 
     public HeroAdapter(Context content) {
         this.context = content;
-        this.heroes = heroes;
+        heroes= new ArrayList<>();
     }
 
     // to set array list heroes in main
@@ -54,16 +54,16 @@ public class HeroAdapter extends BaseAdapter {
     private class ViewHolder{
         private TextView txName;
         private TextView txtDescription;
-        private ImageView imgPhooto;
+        private ImageView imgPhoto;
         ViewHolder(View view){
             txName= view.findViewById(R.id.txt_name);
             txtDescription= view.findViewById(R.id.txt_description);
-            imgPhooto= view.findViewById(R.id.img_photo);
+            imgPhoto= view.findViewById(R.id.img_photo);
         }
         void bind(Hero hero){
             txName.setText(hero.getName());
             txtDescription.setText(hero.getDescription());
-            imgPhooto.setImageResource(hero.getPhoto());
+            imgPhoto.setImageResource(hero.getPhoto());
         }
     }
 }

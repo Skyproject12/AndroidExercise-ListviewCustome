@@ -21,7 +21,6 @@
         android:layout_toRightOf="@id/img_photo"
         android:layout_marginLeft="26dp" />
     <TextView
-        android:layout_toEndOf="@string/lorem"
         android:maxLines="3"
         android:ellipsize="end"
         android:layout_toRightOf="@id/img_photo"

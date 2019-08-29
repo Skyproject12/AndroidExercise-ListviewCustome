@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
         //ArrayAdapter<String>adapter= new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, dataName);
         ListView listView= findViewById(R.id.lv_list);
         listView.setAdapter(adapter);
-        addItem();
         Prepare();
+        addItem();
         // make onclick in lisview listener
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -39,12 +39,11 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     // menampung semua file dalam array lalu dimasukkan ke dalam array list
-    private void addItem(){
-        heroes= new ArrayList<>();
-        for (int i = 0; i <dataName.length ; i++) {
-            Hero hero= new Hero();
-            //default image -1
-            hero.setPhoto(dataPhoto.getResourceId(i,-1));
+    private void addItem() {
+        heroes = new ArrayList<>();
+        for (int i = 0; i < dataName.length; i++) {
+            Hero hero = new Hero();
+            hero.setPhoto(dataPhoto.getResourceId(i, -1));
             hero.setName(dataName[i]);
             hero.setDescription(dataDescription[i]);
             heroes.add(hero);
