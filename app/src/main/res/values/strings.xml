@@ -1,3 +1,40 @@
 <resources>
     <string name="app_name">ListView</string>
+    <string name="lorem">lorem</string>
+    <string name="name_heroes">Nama Pahlawan</string>
+    <string-array name="data_name">
+        <item>Ahmad Dahlan</item>
+        <item>Ahmad Yani</item>
+        <item>Sutomo</item>
+        <item>Gatot Soebroto</item>
+        <item>Ki Hadjar Dewantarai</item>
+        <item>Mohammad Hatta</item>
+        <item>Soedirman</item>
+        <item>Soekarno</item>
+        <item>Soepomo</item>
+        <item>Tan Malaka</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>Salah seorang ulama dan khatib terkemuka di masjid besar kesultanan Yogyakarta pada masa itu, dan ibu dari K.H </item>
+        <item>Salah seorang ulama dan khatib terkemuka di masjid besar kesultanan Yogyakarta pada masa itu, dan ibu dari K.H </item>
+        <item>Salah seorang ulama dan khatib terkemuka di masjid besar kesultanan Yogyakarta pada masa itu, dan ibu dari K.H </item>
+        <item>Salah seorang ulama dan khatib terkemuka di masjid besar kesultanan Yogyakarta pada masa itu, dan ibu dari K.H </item>
+        <item>Salah seorang ulama dan khatib terkemuka di masjid besar kesultanan Yogyakarta pada masa itu, dan ibu dari K.H </item>
+        <item>Salah seorang ulama dan khatib terkemuka di masjid besar kesultanan Yogyakarta pada masa itu, dan ibu dari K.H </item>
+        <item>Salah seorang ulama dan khatib terkemuka di masjid besar kesultanan Yogyakarta pada masa itu, dan ibu dari K.H </item>
+        <item>Salah seorang ulama dan khatib terkemuka di masjid besar kesultanan Yogyakarta pada masa itu, dan ibu dari K.H </item>
+        <item>Salah seorang ulama dan khatib terkemuka di masjid besar kesultanan Yogyakarta pada masa itu, dan ibu dari K.H </item>
+        <item>Salah seorang ulama dan khatib terkemuka di masjid besar kesultanan Yogyakarta pada masa itu, dan ibu dari K.H </item>
+    </string-array>
+    <array name="data_photo">
+        <item>@drawable/ahmaddahlan</item>
+        <item>@drawable/ahmadyani</item>
+        <item>@drawable/bungtomo</item>
+        <item>@drawable/gatotsubroto</item>
+        <item>@drawable/kihajardewantara</item>
+        <item>@drawable/mohammadhatta</item>
+        <item>@drawable/soedirman</item>
+        <item>@drawable/soepomo</item>
+        <item>@drawable/tanmalaka</item>
+    </array>
 </resources>
